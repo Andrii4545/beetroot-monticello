@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header{
+    height: 801px;
+    background-image: url(../img/tu-tram-pham.png);
+    background-repeat: no-repeat;
+    background-color: rgb(105, 138, 255);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.navbar{
+    background-color: rgb(105, 138, 255);
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.blockProjects{
+    height: 1638px;
+}
+.headLine>h2{
+    
+    margin-bottom: 100px;
+    text-align: center;
+}
+.asideLeft1{
+    position: relative;
+}
+.img{
+    width: 585px;
+    height: 470px;
+}
+.imgBuild{
+    width: 585px;
+    height: 470px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+.asideRight1{
+    width: 500px;
+    margin-right: 215px;
+}
+.boxProjects1{
+    display: flex;
+    justify-content: space-between;
+    height: 540px;
+    margin-bottom: 140px;
+}
+.boxProjects2{
+    display: flex;
+    justify-content: space-between;
+    height: 540px;
+}
+.asideRight2{
+    position: relative;
+    
+}
+.hightBuild{
+    width: 585px;
+    height: 470px;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+.asideLeft2{
+    width: 500px;
+    margin-left: 215px;
+}
+.backImg1{
+    width: 720px;
+    display: flex;
+    justify-content: flex-start;
+}
+.backImg2{
+    width: 720px;
+    display: flex;
+    justify-content: flex-end;
+}
+.news{
+    height: 1035px;
+    background-image: url(../img/city2@2x.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.headLine{
+    text-align: center;
+}
+.lineWith{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 140px;
+}
+.line{
+    border-bottom: 1px black solid;
+    width: 100px;
+    text-align: center;
+}
+.containerr1{
+    display: flex;
+    justify-content: center;
+    
+}
+.multiple-items{
+    width: 80%;
+}
+.cards{
+    width: 370px;
+    height: 520px;
+    background-color: white;
+    margin: 0 30px 0 30px;
+}
+.cards-img>img{
+    width: 100%;
+    height: 240px;
+    margin-bottom: 30px;
+}
+.cards-img-ft>img{
+    border-radius: 50%;
+}
+.cards-ft,.cards-body>h3,p{
+    display: flex;
+    padding: 0 20px 0 20px;
+}
+h2{
+    padding: 0 20px 0 20px;   
+}
+
+.cards-text-ft>p:nth-child(1){
+    margin-bottom: 5px;
+}
+.gallery{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.galleryGrid{
+    width: 1200px;
+    height: 437px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.hoverGrid{
+    transition: ease-in-out .4s;
+}
+.hoverGrid:hover{
+    transform: scale(1.05);
+}
+.conteinerGrid1{
+    background-image: url(../img/scott-webb-176434.png);
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    background-size: 100% 100%;
+}
+.conteinerGrid2{
+    background-image: url(../img/photos-13323p6Bdc0uhr8Bq.png);
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-size: 100% 100%;
+}
+.conteinerGrid3{
+    background-image: url(../img/echo-grid-156713.png);
+    grid-column-start: 12;
+    grid-column-end: 16;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-size: 100% 100%;
+}
+.conteinerGrid4{
+    background-image: url(../img/fuse-brussels-169216.png);
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    background-size: 100% 100%;
+}
+.conteinerGrid5{
+    background-image: url(../img/tu-tram-pham-202263.png);
+    grid-column-start: 12;
+    grid-column-end: 16;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    background-size: 100% 100%;
+}
+.btn-modal{
+    width: 190px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.contacts{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.my-modal-content{
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 42px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact-body{
+    display: flex;
+    justify-content: center;
+}
+.contact-form>form{
+    display: flex;
+    flex-direction: column;
+}
+.my-body-modal>.headLine>.lineWith{
+    height: 0;
+}
+.my-body-modal>.headLine>h2{
+    margin-bottom: 30px;
+}
+.contact-form>form>input{
+    margin-bottom: 10px;
+    border: none;
+}
+.contact-form>form>input{
+    border-bottom: 1px solid black;
+}
+#btn-sub{
+    border: 1px solid black;
+    width: 140px;
+    height: 50px;
+    margin-left: 50px;
+}
+footer{
+    height: 520px;
+    background-color: #609eff;
+    background-image: url(../img/scott-webb-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ft-text>p{
+    color: white;
+}
+.ft-icon>a>svg{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.ft-text{
+    display: flex;
+}
