@@ -1,7 +1,7 @@
 $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     dots: true, 
     responsive: [
       {
@@ -11,7 +11,7 @@ $('.multiple-items').slick({
         }
       },
       {
-        breakpoint: 601,
+        breakpoint: 700,
         settings: {
           slidesToShow: 1,
           arrows: false,
@@ -21,3 +21,12 @@ $('.multiple-items').slick({
       
     ]
   });
+
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
