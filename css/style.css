@@ -46,6 +46,20 @@ h2{
     border-radius: 50%;
     padding: 10px;
 }
+.ft-icon a svg{
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.ft-icon a:hover svg{
+    color: black;
+    border: black 1px solid;
+}
+.ft-icon a{
+    margin: 10px;
+}
 .hd-icon a{
     margin: 10px;
 }
