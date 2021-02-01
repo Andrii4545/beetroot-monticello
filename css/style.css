@@ -166,6 +166,9 @@ nav{
     .hd-icon{
         right: 0;
     }
+    footer{
+        flex-direction: column-reverse;
+    }
   }
   @media screen and (max-width: 600px) {
     nav{
