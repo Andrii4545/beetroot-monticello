@@ -22,12 +22,34 @@ h1{
     font-family: 'gothambold1';
     font-size: 80px;
 }
+.asideRight1 p{
+    font-family: 'GothamBook';
+}
+.mr-sp-p{
+    margin-right: 10px;
+}
+.cards-text-ft :nth-child(2){
+    color: #bcdfff;
+    font-size: 14px;
+}
 h2{
     font-family: 'gothambold1';
 }
 .h21{
-    font-family: GothamBook;
+    font-family: 'GothamBook';
     text-transform: uppercase;
+}
+.contact-adress p{
+    font-family: 'GothamBook';
+}
+.cards-body p{
+    font-family: 'GothamBook';
+}
+.st-italic{
+    font-style: italic;
+}
+footer p{
+    font-family: 'GothamBook';
 }
 .logo{
     position: absolute;
@@ -148,15 +170,50 @@ nav{
     background-color: #555;
     color: white;
   }
+  .asideLeft2 .btn-mrgn, .asideRight1 .btn-mrgn{
+      margin-left: 20px;
+  }
   
   @media screen and (max-width: 1500px){
     .hd-icon, .logo {
         top: 120px;
     }
+    .sidenav{
+        right: 2%;
+    }
+  }
+  @media screen and (max-width: 1200px){
+    .gallery .galleryGrid{
+        width: 800px;
+        height: 400px;
+    }
+  }
+  @media screen and (max-width: 800px){
+    .gallery .galleryGrid{
+        width: 100%;
+        height: 41%;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .boxProjects2 .asideLeft2, .boxProjects1 .asideRight1{
+        width: 100%;
+    }
+    .boxProjects2{
+        margin-top: 200px;
+    }
+  }
+  @media screen and (max-width: 1670px){
+    .sidenav{
+        right: 2%;
+    }
   }
   @media screen and (max-width: 440px){
     .hd-icon {
         top: 60px;
+    }
+    .gallery .galleryGrid{
+        width: 100%;
+        height: 23%;
     }
   }
   @media screen and (max-width: 880px){
@@ -168,6 +225,18 @@ nav{
     }
     footer{
         flex-direction: column-reverse;
+    }
+    .boxProjects2{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .boxProjects1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .asideRight2 .hightBuild, .asideLeft1 .imgBuild{
+        width: 320px;
+        height: 300px;
     }
   }
   @media screen and (max-width: 600px) {
@@ -187,8 +256,40 @@ nav{
       float: right;
       display: block;
     }
+    .modal .my-modal-content{
+        width: 100%;
+
+    }
+    .contact-body{
+        flex-direction: column;
+    }
+    #btn-sub{
+        align-self: center;
+    }
   }
   
+  @media screen and (max-width: 1400px){
+    .boxProjects1 .asideRight1{
+        margin-right: 0; 
+    }
+    .boxProjects2 .asideLeft2{
+        margin-left: 0;
+    }
+  }
+  @media screen and (max-width: 1000px){
+    .asideRight2 .hightBuild{
+        position: static;
+    }
+    .asideRight2 .backImg2{
+        display: none;
+    }
+    .asideLeft1 .imgBuild{
+        position: static;
+    }
+    .asideLeft1 .backImg1{
+        display: none;
+    }
+  }
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
@@ -438,7 +539,7 @@ h2{
     margin: 20% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 40%;
+    width: 600px;
 }
 .close{
     color: #aaa;
