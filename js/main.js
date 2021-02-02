@@ -31,7 +31,6 @@ $('.multiple-items').slick({
     }
 }
 
-// var burger = document.getElementById("aaa");
-// $('header .topnav a').on("click", function (e) {
-//   burger.click().removeClass("responsive");
-// });
+$("#myTopnav > a:not(.icon)").click(function () {
+    $("#myTopnav").removeClass('responsive');
+});
